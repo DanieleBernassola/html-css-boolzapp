@@ -14,7 +14,7 @@ body{
 .container.debug{
     background-color: red;
 }
-
+/* INIZIO COL-LEFT */
 .col-left{
     display: none;
 }
@@ -23,6 +23,17 @@ body{
     background-color: yellow;
 }
 
+.profile{
+    height: 10%;
+    background-color: pink;
+}
+
+.notify{
+    background-color: #8fdafc;
+    height: 10%;
+}
+/* FINE COL-LEFT */
+/* INIZIO COL-RIGHT */
 .col-right{
     width: 100%;
 }
@@ -74,6 +85,7 @@ body{
     margin: 5px 1rem;
     height: calc(100% - 10px);
 }
+/* FINE COL-RIGHT */
 /* FINE LAYOUT */
 
 /* INIZIO UTILITY */
@@ -90,7 +102,7 @@ body{
     align-items: center;
 }
 
-.hide-tab{
+.show-tab{
     display: none;
 }
 /* FINE UTILITY */

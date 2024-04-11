@@ -13,4 +13,12 @@
     .col-right{
         width: 80%;
     }
+
+    .show-desk{
+        display: initial;
+    }
+
+    .notify.show-desk{
+        display: block;
+    }
 }

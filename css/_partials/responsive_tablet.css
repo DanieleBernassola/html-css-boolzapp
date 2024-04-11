@@ -14,11 +14,15 @@
         display: initial;
     }
 
-    .hide-tab{
+    .show-tab{
         display: initial;
     }
 
     .new-message input{
         width: calc(100% - 10rem);
+    }
+
+    .show-desk{
+        display: none;
     }
 }
