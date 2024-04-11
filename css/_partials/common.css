@@ -32,6 +32,27 @@ body{
     background-color: #8fdafc;
     height: 10%;
 }
+
+.search-chat{
+    background-color: gray;
+    height: 5%;
+}
+
+.search-input{
+    width: calc(100% - 0.5rem);
+    margin: 0 0.25rem;
+    padding: 0.25rem 0;
+}
+
+.recent-chats{
+    height: 75%;
+}
+
+.recent-chat{
+    background-color: brown;
+    height: 10%;
+    border: 1px solid black;
+}
 /* FINE COL-LEFT */
 /* INIZIO COL-RIGHT */
 .col-right{

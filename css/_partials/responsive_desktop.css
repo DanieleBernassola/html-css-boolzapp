@@ -21,4 +21,16 @@
     .notify.show-desk{
         display: block;
     }
+
+    .search-chat.show-desk{
+        display: block;
+    }
+
+    .recent-chats{
+        overflow-y: scroll;
+    }
+
+    .recent-chat{
+        height: 14%;
+    }
 }
