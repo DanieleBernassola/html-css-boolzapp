@@ -31,12 +31,48 @@ body{
     background-color: blue;
 }
 
-.info{
+#info{
     background-color: var(--top-row-color);
+    height: 10%;
 }
 
 .chat-tools{
     display: none;
+}
+
+#messages{
+    background-image: url(/img/mine.jpg);
+    height: 80%;
+    padding: 1rem 5rem;
+}
+
+.user-message{
+    text-align: right;
+}
+
+.user-message .content{
+    background-color: green;
+    display: inline-block;
+}
+
+.received-message .content{
+    background-color: orange;
+    display: inline-block;
+}
+
+#message-input{
+    background-color: var(--bottom-row-color);
+    height: 10%;
+}
+
+.new-message{
+    height: 100%;
+}
+
+.new-message input{
+    width: calc(100% - 2rem);
+    margin: 5px 1rem;
+    height: calc(100% - 10px);
 }
 /* FINE LAYOUT */
 
@@ -52,5 +88,9 @@ body{
 
 .align-center{
     align-items: center;
+}
+
+.hide-tab{
+    display: none;
 }
 /* FINE UTILITY */

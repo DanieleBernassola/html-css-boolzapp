@@ -14,23 +14,41 @@
         <!-- SEZIONE PRINCIPALE -->
             <div class="container d-flex debug">
                 <div class="col-left debug" id="chats">
-                    <div class="content">
-                        
-                    </div>
+                    
                 </div>
+
                 <div class="col-right debug" id="chat">
-                    <div class="content">
-                        <div class="info d-flex space-between align-center">
-                            <div class="chat-info">
-                                <span class="chat-avatar">avatar</span>
-                                <span class="chat-name">name</span>
-                                <div class="status">Ultimo accesso</div>
+                    <!-- INFO (RIGA SUPERIORE) -->
+                    <div class="d-flex space-between align-center" id="info">
+                        <div class="chat-info">
+                            <span class="chat-avatar">avatar</span>
+                            <span class="chat-name">name</span>
+                            <div class="status">Ultimo accesso</div>
+                        </div>
+                        <div class="chat-tools">
+                            <span class="">search</span>
+                            <span class="">attach</span>
+                            <span class="">menu</span>
+                        </div>
+                    </div>
+                    <!-- MESSAGGI -->
+                    <div id="messages">
+                        <div class="user-message">
+                            <div class="content">
+                                lorem
                             </div>
-                            <div class="chat-tools">
-                                <span class="">search</span>
-                                <span class="">attach</span>
-                                <span class="">menu</span>
+                        </div>
+                        <div class="received-message">
+                            <div class="content">
+                                lorem
                             </div>
+                        </div>
+                    </div>
+                    <div id="message-input">
+                        <div class="new-message">
+                            <span class="hide-tab">smile</span>
+                            <input type="text" name="" id="" placeholder="Scrivi un messaggio">
+                            <span class="hide-tab">mic</span>
                         </div>
                     </div>
                 </div>
