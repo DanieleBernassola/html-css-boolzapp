@@ -1,1 +1,16 @@
 /* min-width:576px */
+
+@media screen and (min-width: 576px) {
+    .col-left{
+        width: 5%;
+        display: block;
+    }
+
+    .col-right{
+        width: 95%;
+    }
+
+    .chat-tools{
+        display: initial;
+    }
+}

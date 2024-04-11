@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to top, #d2dbdc 0%, #dddbd1 85%, #009588 85%, #009588 100%);
+    height: 100vh;
+    display: flex;
+    font-size: var(--font-size-mobile);
+}
+
+/* INIZIO LAYOUT */
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container.debug{
+    background-color: red;
+}
+
+.col-left{
+    display: none;
+}
+
+.col-left.debug{
+    background-color: yellow;
+}
+
+.col-right{
+    width: 100%;
+}
+
+.col-right.debug{
+    background-color: blue;
+}
+
+.info{
+    background-color: var(--top-row-color);
+}
+
+.chat-tools{
+    display: none;
+}
+/* FINE LAYOUT */
+
+/* INIZIO UTILITY */
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+/* FINE UTILITY */

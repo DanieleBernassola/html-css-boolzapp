@@ -1,1 +1,16 @@
 /* min-width:992px */
+@media screen and (min-width: 992px) {
+    .container{
+        width: 90%;
+        height: 95vh;
+        margin: auto;
+    }
+
+    .col-left{
+        width: 20%;
+    }
+
+    .col-right{
+        width: 80%;
+    }
+}
