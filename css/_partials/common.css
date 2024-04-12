@@ -10,10 +10,6 @@ body{
     width: 100vw;
     height: 100vh;
 }
-
-.container.debug{
-    background-color: red;
-}
 /* INIZIO COL-LEFT */
 .col-left{
     display: none;
@@ -23,19 +19,12 @@ body{
     background-color: yellow;
 }
 
-.profile{
-    height: 10%;
-    background-color: pink;
-}
-
 .notify{
     background-color: #8fdafc;
-    height: 10%;
 }
 
 .search-chat{
     background-color: gray;
-    height: 5%;
 }
 
 .search-input{
@@ -44,13 +33,8 @@ body{
     padding: 0.25rem 0;
 }
 
-.recent-chats{
-    height: 75%;
-}
-
 .recent-chat{
     background-color: brown;
-    height: 10%;
     border: 1px solid black;
 }
 /* FINE COL-LEFT */
@@ -59,13 +43,12 @@ body{
     width: 100%;
 }
 
-.col-right.debug{
-    background-color: blue;
-}
-
-#info{
+header{
+    height: 4rem;
     background-color: var(--top-row-color);
-    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .chat-tools{
@@ -74,8 +57,9 @@ body{
 
 #messages{
     background-image: url(/img/mine.jpg);
-    height: 80%;
-    padding: 1rem 5rem;
+    height: calc(100% - 8rem);
+    padding: 1rem 3rem;
+    overflow-y: auto;
 }
 
 .user-message{
@@ -85,6 +69,8 @@ body{
 .user-message .content{
     background-color: green;
     display: inline-block;
+    max-width: 70%;
+    margin-bottom: 1rem;
 }
 
 .received-message .content{
@@ -92,16 +78,15 @@ body{
     display: inline-block;
 }
 
-#message-input{
+footer{
+    height: 4rem;
     background-color: var(--bottom-row-color);
-    height: 10%;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
 
-.new-message{
-    height: 100%;
-}
-
-.new-message input{
+footer input{
     width: calc(100% - 2rem);
     margin: 5px 1rem;
     height: calc(100% - 10px);
@@ -112,7 +97,6 @@ body{
 /* INIZIO UTILITY */
 .d-flex{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .space-between{

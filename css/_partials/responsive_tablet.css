@@ -1,13 +1,19 @@
 /* min-width:576px */
 
 @media screen and (min-width: 576px) {
-    .col-left{
-        width: 5%;
-        display: block;
+    body{
+        font-size: var(--font-size-tablet);
     }
 
-    .col-right{
-        width: 95%;
+    .col-left{
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    header{
+        flex-shrink: 0;
     }
 
     .chat-tools{
@@ -24,5 +30,9 @@
 
     .show-desk{
         display: none;
+    }
+
+    .recent-chats{
+        overflow-y: auto;
     }
 }

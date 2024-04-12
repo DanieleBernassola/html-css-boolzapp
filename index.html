@@ -12,9 +12,9 @@
 
     <body>
         <!-- SEZIONE PRINCIPALE -->
-            <div class="container d-flex debug">
+            <div class="container d-flex">
                 <div class="col-left debug" id="chats">
-                    <div class="profile d-flex space-between">
+                    <header>
                         <div>
                             <span class="avatar">avatar</span>
                         </div>
@@ -23,43 +23,60 @@
                             <span class="show-desk">new chat</span>
                             <span class="show-desk">menu</span>
                         </div>
-                    </div>
+                    </header>
                     <div class="notify show-desk">Ricevi notifiche</div>
                     <div class="search-chat show-desk">
                         <input class="search-input" type="search" name="" id="" placeholder="">
                     </div>
                     <!-- CHAT RECENTI -->
                     <div class="recent-chats">
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
-                        <div class="recent-chat">
-                            <span class="avatar-chats"></span>
-                        </div>
+                        <ul>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                            <li class="recent-chat">
+                                <span class="avatar-chats">chat</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-right debug" id="chat">
+                <div class="col-right" id="chat">
                     <!-- INFO (RIGA SUPERIORE) -->
-                    <div class="d-flex space-between align-center" id="info">
+                    <header>
                         <div class="chat-info">
                             <span class="chat-avatar">avatar</span>
                             <span class="chat-name">name</span>
@@ -70,27 +87,31 @@
                             <span class="">attach</span>
                             <span class="">menu</span>
                         </div>
-                    </div>
+                    </header>
                     <!-- MESSAGGI -->
                     <div id="messages">
-                        <div class="user-message">
-                            <div class="content">
-                                lorem
-                            </div>
-                        </div>
-                        <div class="received-message">
-                            <div class="content">
-                                lorem
-                            </div>
-                        </div>
+                        <ul>
+                            <li>
+                                <div class="user-message">
+                                    <div class="content">
+                                        lorem 
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="received-message">
+                                    <div class="content">
+                                        lorem
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div id="message-input">
-                        <div class="new-message">
-                            <span class="show-tab">smile</span>
-                            <input type="text" name="" id="" placeholder="Scrivi un messaggio">
-                            <span class="show-tab">mic</span>
-                        </div>
-                    </div>
+                    <footer>
+                        <span class="show-tab">smile</span>
+                        <input type="text" name="" id="" placeholder="Scrivi un messaggio">
+                        <span class="show-tab">mic</span>
+                    </footer>
                 </div>
             </div>
 
