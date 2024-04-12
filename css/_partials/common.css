@@ -38,18 +38,31 @@ body{
 }
 
 .search-chat{
-    background-color: gray;
+    background-color: #fafafa;
+}
+
+.container-search{
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.search-chat i{
+    color: var(--icon-color);
 }
 
 .search-input{
-    width: calc(100% - 0.5rem);
-    margin: 0 0.25rem;
-    padding: 0.25rem 0;
+    width: calc(100%);
+    margin: 0 1rem;
+    border: 0;
+}
+
+.recent-chats{
+    background-color: white;
 }
 
 .recent-chat{
-    background-color: brown;
-    border: 1px solid black;
+    padding: 0.5rem 0;
 }
 /* FINE COL-LEFT */
 /* INIZIO COL-RIGHT */
@@ -82,7 +95,7 @@ header i{
 }
 
 .chat-name{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .status{
@@ -160,8 +173,8 @@ footer input{
     display: flex;
 }
 
-.space-between{
-    justify-content: space-between;
+.space-around{
+    justify-content: space-around;
 }
 
 .align-center{
