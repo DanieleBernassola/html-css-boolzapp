@@ -23,7 +23,7 @@
     }
 
     .notify.show-desk{
-        display: block;
+        display: flex;
     }
 
     .search-chat.show-desk{

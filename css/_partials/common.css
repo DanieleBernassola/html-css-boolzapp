@@ -16,12 +16,25 @@ body{
     display: none;
 }
 
-.col-left.debug{
-    background-color: yellow;
-}
-
 .notify{
     background-color: #8fdafc;
+    padding: 0.25rem 0;
+}
+
+.notify i{
+    color: #8fdafc;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem 0.5rem;
+}
+
+.notify a{
+    color: var(--icon-color);
+}
+
+.notify-on{
+    font-size: 14px;
 }
 
 .search-chat{
@@ -53,9 +66,18 @@ header{
     padding: 1rem;
 }
 
-.chat-avatar{
-    height: 3rem;
+header i{
+    color: var(--icon-color);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.avatar{
     border-radius: 50%;
+    height: 3rem;
+}
+
+.chat-avatar{
     margin-right: 10px;
 }
 
@@ -69,12 +91,6 @@ header{
 
 .chat-tools{
     display: none;
-    color: var(--icon-color)
-}
-
-.chat-tools i{
-    font-size: 1.25rem;
-    padding: 0.5rem;
 }
 
 #messages{

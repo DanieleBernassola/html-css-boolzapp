@@ -15,20 +15,28 @@
         <!-- SEZIONE PRINCIPALE -->
             <div class="container d-flex">
                 <!-- COLONNA SINISTRA -->
-                <div class="col-left debug" id="chats">
+                <div class="col-left" id="chats">
                     <!-- HEADER -->
                     <header>
                         <div>
-                            <span class="avatar">avatar</span>
+                            <img class="avatar avatar-io" src="./img/avatar_io.jpg" alt="avatar_io">
                         </div>
-                        <div>
-                            <span class="show-desk">updates</span>
-                            <span class="show-desk">new chat</span>
-                            <span class="show-desk">menu</span>
+                        <div class="show-desk">
+                            <i class="fa-solid fa-circle-notch"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                     </header>
                     <!-- NOTIFICHE -->
-                    <div class="notify show-desk">Ricevi notifiche</div>
+                    <div class="notify show-desk align-center">
+                        <div>
+                            <i class="fa-solid fa-bell-slash"></i>
+                        </div>
+                        <div class="notify-on">
+                            <p>Ricevi notifiche di nuovi messaggi</p>
+                            <a href="#">Attiva notifiche desktop</a>
+                        </div>
+                    </div>
                     <!-- RICERCA -->
                     <div class="search-chat show-desk">
                         <input class="search-input" type="search" name="" id="" placeholder="">
@@ -70,7 +78,7 @@
                     <header>
                         <div class="chat-info d-flex align-center">
                             <div>
-                                <img class="chat-avatar" src="./img/avatar_1.jpg" alt="avatar-selected"></img>
+                                <img class="avatar chat-avatar" src="./img/avatar_1.jpg" alt="avatar-selected"></img>
                             </div>
                             <div>
                                 <div class="chat-name">Michele</div>
