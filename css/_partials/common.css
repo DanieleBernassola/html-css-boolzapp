@@ -49,10 +49,31 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+}
+
+.chat-avatar{
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-name{
+    margin-bottom: 5px;
+}
+
+.status{
+    color: var(--icon-color)
 }
 
 .chat-tools{
     display: none;
+    color: var(--icon-color)
+}
+
+.chat-tools i{
+    font-size: 1.25rem;
+    padding: 0.5rem;
 }
 
 #messages{

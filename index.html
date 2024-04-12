@@ -8,12 +8,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
         <!-- SEZIONE PRINCIPALE -->
             <div class="container d-flex">
+                <!-- COLONNA SINISTRA -->
                 <div class="col-left debug" id="chats">
+                    <!-- HEADER -->
                     <header>
                         <div>
                             <span class="avatar">avatar</span>
@@ -24,7 +27,9 @@
                             <span class="show-desk">menu</span>
                         </div>
                     </header>
+                    <!-- NOTIFICHE -->
                     <div class="notify show-desk">Ricevi notifiche</div>
+                    <!-- RICERCA -->
                     <div class="search-chat show-desk">
                         <input class="search-input" type="search" name="" id="" placeholder="">
                     </div>
@@ -55,37 +60,27 @@
                             <li class="recent-chat">
                                 <span class="avatar-chats">chat</span>
                             </li>
-                            <li class="recent-chat">
-                                <span class="avatar-chats">chat</span>
-                            </li>
-                            <li class="recent-chat">
-                                <span class="avatar-chats">chat</span>
-                            </li>
-                            <li class="recent-chat">
-                                <span class="avatar-chats">chat</span>
-                            </li>
-                            <li class="recent-chat">
-                                <span class="avatar-chats">chat</span>
-                            </li>
-                            <li class="recent-chat">
-                                <span class="avatar-chats">chat</span>
-                            </li>
                         </ul>
                     </div>
                 </div>
 
+                <!-- COLONNA DESTRA -->
                 <div class="col-right" id="chat">
                     <!-- INFO (RIGA SUPERIORE) -->
                     <header>
-                        <div class="chat-info">
-                            <span class="chat-avatar">avatar</span>
-                            <span class="chat-name">name</span>
-                            <div class="status">Ultimo accesso</div>
+                        <div class="chat-info d-flex align-center">
+                            <div>
+                                <img class="chat-avatar" src="./img/avatar_1.jpg" alt="avatar-selected"></img>
+                            </div>
+                            <div>
+                                <div class="chat-name">Michele</div>
+                                <p class="status">Ultimo accesso oggi alle 16:26</p>
+                            </div>
                         </div>
-                        <div class="chat-tools">
-                            <span class="">search</span>
-                            <span class="">attach</span>
-                            <span class="">menu</span>
+                        <div class="chat-tools d-flex align-center show-tab">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fas fa-paperclip"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                     </header>
                     <!-- MESSAGGI -->
@@ -107,6 +102,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- FOOTER -->
                     <footer>
                         <span class="show-tab">smile</span>
                         <input type="text" name="" id="" placeholder="Scrivi un messaggio">
